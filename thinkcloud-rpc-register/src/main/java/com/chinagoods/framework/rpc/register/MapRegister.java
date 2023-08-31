@@ -61,7 +61,7 @@ public class MapRegister {
 
         try {
 
-            FileInputStream fileInputStream = new FileInputStream("/register.txt");
+            FileInputStream fileInputStream = new FileInputStream("/register");
             try (ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)) {
                 return (Map<String, List<URL>>) objectInputStream.readObject();
             }
