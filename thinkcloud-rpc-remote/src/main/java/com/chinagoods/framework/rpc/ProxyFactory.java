@@ -26,7 +26,7 @@ public class ProxyFactory<T> {
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
                 Invocation invocation=new Invocation(interfaceClass.getName(),method.getName(),args,method.getParameterTypes());
-                 List<URL> urls = NacosRegister.getInstance(interfaceClass.getName());//MapRegister.get(interfaceClass.getName());
+                 List<URL> urls = MapRegister.get(interfaceClass.getName());
                  URL url = LoadBalance.random(urls);
                  Protocol protocol = ProtocolFactory.getProtocol();
                  String send = protocol.send(url, invocation);

@@ -18,7 +18,7 @@ public class ProviderApp
         System.out.println( "dubbo start...." );
 
         URL url=new URL("127.0.0.1",20881);
-        NacosRegister.register(EchoService.class.getName(),url);
+     //   NacosRegister.register(EchoService.class.getName(),url);
         MapRegister.register(EchoService.class.getName(),url);
         LocalRegister.regist(EchoService.class.getName(),EchoServiceImpl.class);
         Protocol protocol= ProtocolFactory.getProtocol();
