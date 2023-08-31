@@ -4,54 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1dad68c-7176-40a8-a808-8ad7f3eb2c9d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/src/main/java/com/chinagoods/framework/rpc/commons/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/src/main/java/com/chinagoods/framework/rpc/commons/LoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/src/main/java/com/chinagoods/framework/rpc/commons/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/src/main/java/com/chinagoods/framework/rpc/commons/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-commons/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-api/src/main/java/com/chinagoods/framework/rpc/api/EchoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-api/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-consumer/src/main/java/com/chinagoods/framework/rpc/ConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-consumer/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-provider/src/main/java/com/chinagoods/framework/rpc/ProviderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-provider/src/main/java/com/chinagoods/framework/rpc/api/impl/EchoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-example/thinkcloud-rpc-example-provider/src/test/java/com/chinagoods/framework/rpc/ProviderAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/dubbo/DubboProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/dubbo/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/dubbo/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/dubbo/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/dubbo/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/http/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/http/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/http/HttpProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/http/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/main/java/com/chinagoods/framework/rpc/http/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-protocol/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/src/main/java/com/chinagoods/framework/rpc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/src/main/java/com/chinagoods/framework/rpc/nacos/NacosRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/src/main/java/com/chinagoods/framework/rpc/register/LocalRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/src/main/java/com/chinagoods/framework/rpc/register/MapRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-register/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-remote/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-remote/src/main/java/com/chinagoods/framework/rpc/ProtocolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-remote/src/main/java/com/chinagoods/framework/rpc/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkcloud-rpc-remote/src/test/java/com/chinagoods/framework/rpc/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1dad68c-7176-40a8-a808-8ad7f3eb2c9d" name="更改" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +18,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2UdYTkk0dzLkxX9MCvWwuT4nQi6" />
   <component name="ProjectViewState">
@@ -137,10 +99,35 @@
       <workItem from="1693365780567" duration="1525000" />
       <workItem from="1693378967371" duration="3229000" />
       <workItem from="1693388103892" duration="29000" />
+      <workItem from="1693444509519" duration="324000" />
     </task>
+    <task id="LOCAL-00001" summary="push">
+      <option name="closed" value="true" />
+      <created>1693444568607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693444568607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
 </project>
